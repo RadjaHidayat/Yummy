@@ -1,6 +1,6 @@
 /**
 * Template Name: Yummy
-* Updated: Jan 09 2024 with Bootstrap v5.3.2
+* Updated: Jan 30 2024 with Bootstrap v5.3.2
 * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -62,6 +62,8 @@ h6 {
 section {
   overflow: hidden;
   padding: 80px 0;
+  scroll-margin-top: 90px;
+  overflow: clip;
 }
 
 .section-bg {
@@ -295,10 +297,6 @@ section {
 .header .btn-book-a-table:focus:hover {
   color: #fff;
   background: rgba(206, 18, 18, 0.8);
-}
-
-section {
-  scroll-margin-top: 90px;
 }
 
 /*--------------------------------------------------------------
